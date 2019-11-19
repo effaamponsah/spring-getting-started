@@ -11,7 +11,7 @@ public class SpringGettingStartedApplication {
 		HumanBean person = (HumanBean)ac.getBean("humanBean");
 
 		System.out.println(person.fname);
-		System.out.println(person.lname);
+		System.out.println(person.friendBean.name);
 
 	}
 
