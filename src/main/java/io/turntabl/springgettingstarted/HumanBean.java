@@ -3,7 +3,7 @@ package io.turntabl.springgettingstarted;
 public class HumanBean {
     public String fname;
     public String lname;
-    public FriendBean friendBean;
+    public HumanBean friendBean;
 
     public HumanBean(){}
 
@@ -15,7 +15,7 @@ public class HumanBean {
 
     public void setLName(String lname){this.lname = lname;}
 
-    public void setFriendBean(FriendBean friendBean){
+    public void setFriendBean(HumanBean friendBean){
         this.friendBean =friendBean;
     }
 
