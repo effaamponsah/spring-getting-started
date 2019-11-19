@@ -4,5 +4,8 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-
+            <bean id="humanBean" class="io.turntabl.springgettingstarted.HumanBean">
+                <property name="FName" value="Dennis" />
+                <property name="LName" value="Effa" />
+            </bean>
 </beans>
